@@ -25,7 +25,7 @@ def parseResponse(response : Response):
         print('Found potentially valid username')
 
 def main():
-    URL = 'https://acd61f821f7968028048233d001700c1.web-security-academy.net/'
+    URL = 'https://acc91f351f5d67768084070d009000b3.web-security-academy.net/'
     client = requests.Session()
 
     for username in open('/cygdrive/c/Users/nofil.qasim/Desktop/usernames.txt', 'r'):
