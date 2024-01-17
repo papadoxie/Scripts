@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-gdb -q -n -batch -ex "ptype /o struct $2" $1 
+gdb -q -n -batch -ex "ptype struct $2" $1 
